@@ -4,34 +4,25 @@
 	<meta charset="UTF-8">
 	<title>Ejercicio 3</title>
 	<style>
-		@media (max-width: 400px) {
-			.pequeno {
-				background: green;
+		@media (min-width: 400px) {
+			body {
+				background-color: green;
+			}
+		}
+		@media (min-width: 600px)  {
+			body {
+				background-color: yellow;
 			}
 		}
 
-		@media (max-width: 600px) {
-			.mediano {
-				background: yellow;
-			}
-		}
-
-		@media (max-width: 800px) {
-			.grande{
-				background: red;
+		@media (min-width: 800px) {
+			body{
+				background-color: red;
 			}
 		}
 	</style>
 </head>
 <body>
-	<div class="pequeno">
-		
-	</div>
-	<div class="mediano">
-		
-	</div>
-	<div class="grande">
-		
-	</div>
+	
 </body>
 </html>
