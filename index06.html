@@ -61,6 +61,27 @@
         padding: 20px 0;
     }
 
+     
+
+    @media only screen and (max-width: 480px) {
+       
+
+        .left-square {
+            width: 100%;
+            float: left;
+        }
+
+        .right-square {
+            width: 100%;
+            float: left;
+        }
+
+        .center-square {
+            width: 100%;
+            float: left;
+        }
+    } 
+
    
 </style>
 
@@ -70,15 +91,21 @@
             <h1>HOLA!</h1>
             <h2>ESTE ES UN EJERCICIO DE GRILLAS!!</h2>
         </div>
-        <div class="left"></div>
-        <div class="right"></div>
-        <div class="center"></div>
-
-        <div class="cuerpo">
-            <div class="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ullam voluptatibus labore libero iure dolorem laudantium natus, impedit dolor quae officiis quibusdam iusto repudiandae perferendis placeat sequi dolore esse error.</div>
-            <div class="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ullam voluptatibus labore libero iure dolorem laudantium natus, impedit dolor quae officiis quibusdam iusto repudiandae perferendis placeat sequi dolore esse error.</div>
-            <div class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ullam voluptatibus labore libero iure dolorem laudantium natus, impedit dolor quae officiis quibusdam iusto repudiandae perferendis placeat sequi dolore esse error.</div>
+        <div class="col-md-4">
+           
+                <div class="left left-square col-md-4"></div>
+                <div class="right right-square col-md-4"></div>
+                <div class="center center-square col-md-4"></div>
+           
         </div>
+
+        
+            <div class="cuerpo">
+            <div class="left col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ullam voluptatibus labore libero iure dolorem laudantium natus, impedit dolor quae officiis quibusdam iusto repudiandae perferendis placeat sequi dolore esse error.</div>
+            <div class="right col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ullam voluptatibus labore libero iure dolorem laudantium natus, impedit dolor quae officiis quibusdam iusto repudiandae perferendis placeat sequi dolore esse error.</div>
+            <div class="center col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ullam voluptatibus labore libero iure dolorem laudantium natus, impedit dolor quae officiis quibusdam iusto repudiandae perferendis placeat sequi dolore esse error.</div>
+        
+        
     </center>
 </body>
 
